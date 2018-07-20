@@ -52,12 +52,12 @@ a:hover
 
 ::selection
 {
-    background: #F3E5F5;
+    background-color: #78909C;
     color: #fff;
 }
 ::-moz-selection
 {
-    background: #F3E5F5;
+    background-color: #78909C;
     color: #fff;
 }
 
@@ -297,18 +297,13 @@ article .head
     border: 2px solid slateblue;
 }
 
-.aside .search img
+.aside .search a img
 {
     float: left;
     min-width: 64px;
     width: 64px;
     min-height: 64px;
-    margin-top: 5px;
+    margin-top: -4px;
     margin-bottom: 5px;
     border: 0px;
-}
-
-.aside .search button
-{
-
 }
