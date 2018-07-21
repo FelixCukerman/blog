@@ -12,6 +12,39 @@
 <body>
     <header>
         <a href="index.html" title="To main" id="logo">MysteryBlog</a>
+        <div>
+                <nav role="navigation">
+                        <div id="menuToggle">
+                          <!--
+                          A fake / hidden checkbox is used as click reciever,
+                          so you can use the :checked selector on it.
+                          -->
+                          <input type="checkbox" />
+                          
+                          <!--
+                          Some spans to act as a hamburger.
+                          
+                          They are acting like a real hamburger,
+                          not that McDonalds stuff.
+                          -->
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          
+                          <!--
+                          Too bad the menu has to be inside of the button
+                          but hey, it's pure CSS magic.
+                          -->
+                          <ul id="menu">
+                            <a href="#"><li>Conspiracies</li></a>
+                            <a href="#"><li>Exorcism</li></a>
+                            <a href="#"><li>Bestiary</li></a>
+                            <a href="#"><li>Top Fortuneteller</li></a>
+                            <a href="#"><li>Donatus</li></a>
+                          </ul>
+                        </div>
+                      </nav>
+        </div>
         <div class="right">
             <div class="social">
                 <img src = "Images/twitterico.png"/>
@@ -77,5 +110,8 @@
             <a href="#"><img src = "Images/search.png"/></a>
         </div>
     </div>
+    <footer>
+        <p>&copy BSA18</p>
+    </footer>
 </body>
 </html>
