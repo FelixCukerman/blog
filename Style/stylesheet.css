@@ -377,6 +377,7 @@ article .head
 @media (min-width: 144px) and (max-width: 890px){
 .aside
 {
+    margin-top: 45px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
