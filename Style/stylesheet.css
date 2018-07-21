@@ -218,6 +218,12 @@ header
     height: 350px;
 }
 
+.spaced
+{
+    width: 100%;
+    height: 90px;
+}
+
 @media (min-width: 144px) and (max-width: 890px){
 .article-container
 {
@@ -537,7 +543,7 @@ article .head
             width: 90%;
             margin-left: 5%;
             margin-right: 5%;
-            min-height: 35px;
+            min-height: 55px;
             border-radius: 15px;
             border: 0px;
             background-color: purple;
@@ -604,9 +610,9 @@ article .head
         {
             float: left;
             border: 2px solid mediumpurple;
-            width: 80%;
-            min-height: 20px;
-            margin-top: 5px;
+            width: 75%;
+            min-height: 50px;
+            margin-top: 8px;
             margin-bottom: 5px;
             padding-left: 10px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -647,9 +653,9 @@ article .head
     .aside .search a img
     {
         float: left;
-        min-width: 40px;
-        width: 40px;
-        min-height: 40px;
+        min-width: 70px;
+        width: 70px;
+        min-height: 70px;
         margin-top: 1px;
         margin-bottom: 5px;
         border: 0px;
@@ -735,6 +741,7 @@ article .head
         margin-left: 10px;
         vertical-align: middle;
         font-family: century Gothic;
+        color: whitesmoke;
     }
 
 #menuToggle
