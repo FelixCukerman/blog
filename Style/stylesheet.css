@@ -230,6 +230,7 @@ header
 @media (min-width: 144px) and (max-width: 890px){
 .article-container
 {
+    background-color: #ECEFF1;
     float: left;
     margin-top: -15%;
     width: 90%;
@@ -243,6 +244,7 @@ header
 @media (min-width: 900px) and (max-width: 6000px){
     .article-container
     {
+        background-color: #ECEFF1;
         float: left;
         width: 69%;
         max-width: 1200px;
@@ -380,6 +382,7 @@ article .head
 @media (min-width: 144px) and (max-width: 890px){
 .aside
 {
+    background-color: #ECEFF1;
     margin-top: 45px;
     width: 90%;
     margin-left: 5%;
@@ -393,6 +396,7 @@ article .head
 @media (min-width: 900px) and (max-width: 6000px){
     .aside
     {
+        background-color: #ECEFF1;
         width: 24%;
         margin-left: 1.5%;
         margin-right: 1.5%;
@@ -666,6 +670,12 @@ article .head
     }}
 
 @media (min-width: 144px) and (max-width: 890px){
+.aside .comments
+{
+
+}}
+
+@media (min-width: 144px) and (max-width: 890px){
     .aside .tags
     {
         margin-left: 2%;
@@ -722,6 +732,7 @@ article .head
 @media (min-width: 900px) and (max-width: 6000px){
     footer
     {
+        margin-top: 56px;
         width: 100%;
         min-height: 50px;
         border-bottom: 2px solid silver;
